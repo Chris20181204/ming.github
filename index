@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>森林手烘焙(完成)</title>
+    <!-- css -->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.theme.default.min.css"></link>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/owl.carousel.min.js"></script>
+   
+
+</head>
+<body>
+<!-- header -->
+<header> 
+  <div class="logo">
+     <a href="#"><img src="images/bglogo.png" class="bglogo" alt="森林手烘焙"></a>
+     <a href="#"><img src="images/smlogo.png" class="smlogo" alt="森林手烘焙"></a>
+  </div> 
+  <nav>
+      <ul>
+          <div class="menu-toggle-time">
+              <i class="fas fa-times"></i>
+          </div>
+          <li><a href="#">最新消息</a></li>
+          <li><a href="#">產品介紹</a></li>
+          <li><a href="#">聯絡我們</a></li>
+          <li><a href="#">購物中心</a></li>
+          <li><a href="#">社群網站</a></li>
+      </ul>
+  </nav>
+  <div class="menu-toggle-bar"><i class="fas fa-bars"></i></div>
+</header>
+<div class="banner"></div>
+<!--  header jquery -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.menu-toggle-bar').click(function(){
+                $('nav').toggleClass('active');
+        });
+        $('.menu-toggle-time').click(function(){
+                $('nav').toggleClass('active');
+        });
+    });
+</script>
+<!-- fivepic -->
+<div class="fivepic">
+  <ul>
+    <li><img src="images/bg11.png" alt=""></li>
+    <li><img src="images/bg12.png" alt=""></li>
+    <li><img src="images/bg13.png" alt=""></li>
+    <li><img src="images/bg14.png" alt=""></li>
+    <li><img src="images/bg15.png" alt=""></li>
+  </ul>
+</div>
+<!-- 品質堅持 -->
+<section id="brand">
+  <div class="alltitlepic">
+      <div class="imgtitle anim">
+        <img src="images/picbrand.png" alt="">
+      </div>
+      <p class="anim">
+        不加多餘的糖份、油脂，
+        不給不必要的色素裝飾，追求單純美味。<br>
+        <span>與健康分享，不靠防腐香精來增加香氣與保存期限，
+        使甜膩少一點、<br>但保存短一點，
+        讓你吃的無負擔，追求健康多一點。</span>
+      </p>
+      <div class="anim"><img src="images/donut.jpg" class="img-donut" alt=""></div>
+   </div>
+</section>
+<!-- 背景插圖bg-days -->
+<div class="bg-days anim">
+  <img src="images/bgdays.jpg" class="img-days" alt="">
+</div>
+<!-- 產品介紹 -->
+ <div class="alltitlepic anim">
+  <div class="imgtitle anim">
+    <img src="images/picintro.png" alt="">
+  </div>
+ </div>
+ <div class="cardbox">
+  <!--1-->
+  <div class="card">  
+    <div class="card-img">
+        <h2 class="text-more-1">更多資訊</h2>
+        <img class="img-1" src="images/product1.jpg" alt="季節限定">
+    </div>
+    <div class="card-content">
+      <h3>季節限定</h3>
+      <p>季節進行季節限定的蛋糕口味，選用台灣本土高級天然食材，口感濃郁華潤、獨特</p>
+    </div>
+  </div>
+  <!--2-->
+  <div class="card">  
+    <div class="card-img">
+        <h2 class="text-more-2">更多資訊</h2>
+        <img class="img-2" src="images/product2.jpg" alt="伴手禮">
+    </div>
+    <div class="card-content">
+      <h3>伴手禮</h3>
+      <p>讓到訪的旅客都能帶走優質的</br>記憶 & 回憶</p>
+    </div>
+  </div>
+  <!--3-->
+  <div class="card">  
+    <div class="card-img">
+        <h2 class="text-more-3">更多資訊</h2>
+        <img class="img-3" src="images/product3.jpg" alt="千層蛋糕">
+    </div>
+    <div class="card-content">
+      <h3>千層蛋糕</h3>
+      <p>法國製產鮮奶油塗抹在每一層的薄餅，每口吃的到濃郁茶香，再灑上藍色矢車菊點綴，外觀優美，味道豐富!</p>
+    </div>
+  </div>
+  <!--4-->
+  <div class="card">  
+    <div class="card-img">
+        <h2 class="text-more-4">更多資訊</h2>
+        <img class="img-4" src="images/product4.jpg" alt="烘焙麵包">
+    </div>
+    <div class="card-content">
+      <h3>烘焙麵包</h3>
+      <p>酥爽的麵包大口咬下，香柔滑順起司伴隨著糖粉在舌尖跳舞，如此美味的享受怎能錯過</p>
+    </div>
+  </div>
+  <!--5-->
+  <div class="card">  
+    <div class="card-img">
+        <h2 class="text-more-5">更多資訊</h2>
+        <img class="img-5" src="images/product5.jpg" alt="手工餅乾">
+    </div>
+    <div class="card-content">
+      <h3>手工餅乾</h3>
+      <p>經典祖傳配方、手工揉製、嚴選食材，烘烤出奶香濃郁、口感酥脆的餅乾，片片吃得到真材實料，獨特難忘的風味</p>
+    </div>
+  </div>
+  <!--6-->
+  <div class="card">  
+    <div class="card-img">
+        <h2 class="text-more-6">更多資訊</h2>
+        <img class="img-6" src="images/product6.jpg" alt="新品上市">
+    </div>
+    <div class="card-content">
+      <h3>新品上市</h3>
+      <p>獨特創新，不段研究出許多口味，以傳統的商品融合新口感，蹦出新滋味</p>
+    </div>
+  </div>
+
+
+   
+   <script>
+   $(document).ready(function() {
+    $('.img-1').hover(function(){
+      $('.text-more-1').slideToggle();
+    });
+   $('.img-2').hover(function(){
+      $('.text-more-2').slideToggle();
+    });
+  $('.img-3').hover(function(){
+      $('.text-more-3').slideToggle();
+    });
+  $('.img-4').hover(function(){
+      $('.text-more-4').slideToggle();
+    });
+  $('.img-5').hover(function(){
+      $('.text-more-5').slideToggle();
+    });
+  $('.img-6').hover(function(){
+      $('.text-more-6').slideToggle();
+    });
+  
+});
+  
+   </script>
+</div> 
+
+<hr>
+<!-- 最新消息 -->
+<section id="new">
+  <div class="newimg">
+    <img src="images/picnew.png" class="anim" alt="">
+  </div>
+  <div class="alltitlepic">
+   <div class="new-img anim">
+     <img src="images/coffeeshop.jpg" class="imgcoffee" alt="">
+   </div>
+   <div class="new-content anim">
+     <h2>【手作烘焙】官方網站正式運作</h2>
+     <p>可以讓您瀏覽森林裡的所有蛋糕唷~<br/>
+         您也可以線上詢問有關森林的任何問題喔!<br/>
+         此官方網站不提供蛋糕訂購的唷~<br/>
+         需要訂購蛋糕的話，<br/>
+         可以經粉絲專頁上私訊小編做訂購唷!<br/>
+         或是直接撥打門市電話做預訂也是可以的呦~<br/>
+         <br/>
+         裕學門市電話:06-1215445<br/>
+         民族門市電話:06-5415557<br/>
+         森林客服專線:06-5454144
+       </p>
+   </div>
+  </div>
+</section>
+<!-- owl輪播 -->
+<section id="owlcarousel" class="anim">
+<div class="owl-carousel owl-theme owlpic">
+    <div class="item"><img class="owlimg" src="images/owl-1.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-2.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-3.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-4.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-5.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-6.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-7.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-8.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-9.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-10.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-11.jpg" alt=""></div>
+    <div class="item"><img class="owlimg" src="images/owl-12.jpg" alt=""></div>
+</div>
+</section>
+<!--owl js-->
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay: true,
+    autoplayTimeout: 2000,
+    autoplayHoverPause: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+</script>
+<!-- 聯絡我們 -->
+<section>
+  <div class="alltitlepic bo">
+      <div class="imgtitle anim"><img src="images/piccontact.png" alt=""></div>
+  </div>
+  <div id="contact">
+    <p class="anim"> 
+        謝謝您瀏覽森林手烘焙的網站，<span> 如果您對我們的產品和服務有任何問題和建議。 </span></br>
+          請您填妥下列表單，我們將盡快派專人與您聯繫。
+    </p>
+    <div class="contact anim">
+      <h2>留下您的聯絡方式</h2>
+      <div class="form">
+          <label for="">姓名 Name</label>
+          <input type="text" placeholder="">
+          <label for="">信箱 Mail</label>
+          <input type="text" placeholder="">
+          <label for="">建議事項 Suggestion</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit"  class="button" value="送出留言">
+      </div>
+    </div>
+    <p class="anim">森林手烘焙祝你有美好的一天</p>
+  </div>
+</section>
+<!--footer  -->
+<footer>
+  <div class="containbox">
+    <div class="footerlogo">
+      <img src="images/smlogo.png" alt="">
+    </div>
+    <div class="info">
+        <ul class="info-pic">
+            <li><i class="fas fa-map-marker-alt"></i>台北市大安區安和路一段 27 號 18 樓</li>
+            <li><i class="far fa-envelope"></i>service@forest.com</li>
+            <li><i class="fas fa-phone"></i>(06) 2775 - 3385</li>
+          </ul>
+    </div>
+    <div class="media">
+      <ul class="media-pic">
+        <li><i class="fab fa-facebook"></i></li>
+        <li><i class="fab fa-line"></i></li>
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-instagram"></i></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!-- arrow-top  -->
+<div class="top">
+  <a href=""><img src="images/arrow-top.png" class="arrowtop" alt=""></a>
+ </div>
+ <script>
+ $('.top .arrowtop').click(function(event) {
+  event.preventDefault();
+  $('html,body').animate({
+    scrollTop: 0  //回到最上端
+  }, 800);
+ });
+</script>
+ <!-- card show畫面 -->
+<script type="text/javascript">
+  window.sr = ScrollReveal({
+    origin: "top",
+    duration:1000,
+    easing: "cubic-bezier(0.6, 0.2, 0.1, 1)",
+    reset: true
+  });
+  sr.reveal('.anim');
+</script>
+</body>
+</html>
